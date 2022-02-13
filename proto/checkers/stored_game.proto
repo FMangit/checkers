@@ -8,7 +8,8 @@ message StoredGame {
   string game = 2; 
   string turn = 3; 
   string red = 4; 
-  string black = 5; 
+  string black = 5;
+  uint64 moveCount = 6; 
   
 }
 
